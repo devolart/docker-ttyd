@@ -12,7 +12,7 @@ RUN apt-get install -y nodejs
 RUN apt-get install -y python3 python3-pip
 
 # Install ttyd
-RUN wget https://github.com/tsl0922/ttyd/releases/download/1.6.3/ttyd_linux.x86_64 -O /usr/local/bin/ttyd
+RUN wget https://github.com/tsl0922/ttyd/releases/download/1.7.3/ttyd.x86_64 -O /usr/local/bin/ttyd
 RUN chmod +x /usr/local/bin/ttyd
 
 # Expose port 8080
